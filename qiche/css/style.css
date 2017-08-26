@@ -1,0 +1,97 @@
+/*Style reset*/
+body,div,p,ul,ol,dl,dt,dd,li,form,input,table,th,td,img,h1,h2,h3,h4,h5,h6 { margin:0 ;padding:0; }
+body { background:#eee ; color:#000; font-size:12px; font-style:normal; font-family:"Microsoft Yahei";}
+em, b, i { font-style:normal;}
+img { border:none;}
+a { text-decoration:none; color:#fff;}
+/*a:hover { text-decoration:underline; color:#f50;}*/
+li { list-style:none;}
+table { border-spacing:0; border-collapse:collapse;}
+.position_re{position: relative;}
+.position_ab{position: absolute;}
+.flt{float: left}
+.frt{float: right}
+.clear { clear: both;}
+.clearfix { *zoom: 1;}
+.clearfix:before, .clearfix:after { display: table; line-height: 0; content: "";}
+.clearfix:after { clear: both;}
+/*this end*/
+
+/*header*/
+header{
+    width: 100%;
+    height: 102px;
+    background-color: #fbcc02;
+    color: #333;
+    box-shadow: 0px 5px 5px #d9d9d9;
+
+}
+header a{
+    line-height: 102px;
+    top: 0px;
+    font-size: 36px;
+    color: #333;
+}
+header a.title{
+    text-align: left;
+    left: 18px;
+}
+header h1{
+    text-align: center;
+    line-height: 102px;
+    font-size: 40px;
+
+}
+header a.home{
+    text-align: right;
+    right: 30px;
+}
+/*list*/
+.list{
+    margin: 0 18px;
+}
+.list ul li{
+    height: 124px;
+    background-color: #fff;
+    margin-top: 33px;
+    border: 1px solid #dadada;
+    border-radius: 5px;
+    font-size: 32px;
+    color: #000;
+    line-height: 54px;
+    padding: 13px 0px 0px 18px;
+}
+.list ul img{
+    vertical-align: middle; /*垂直对齐方式，middle:把此元素放置在父元素的中部*/
+}
+.list ul p{
+    padding-right: 10px;
+    display: inline;
+    font-size: 24px;
+    color: #a9a9a9;
+}
+.list p.load{
+    display: block;
+    /*margin: 22px auto; 如果宽度是 100%，则有auto对齐没有效果*/
+    font-size: 28px;
+    color: #989898;
+    text-align: center;
+    padding-top: 22px;
+}
+/*top*/
+.top{
+    width: 216px;
+    height: 60px;
+    border: 1px solid #d6d6d6;
+    border-radius: 5px;
+    margin: 33px auto;
+    line-height: 60px;
+    text-align: center;
+}
+.top h1{
+    display: inline-block;
+    color: #676767;
+    font-size: 32px;
+    font-weight: normal;
+}
+/*nav*/
