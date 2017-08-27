@@ -34,7 +34,6 @@ header{
     height: 1.36rem;
     background-color: #fbcc02;
     box-shadow: 0px .07rem .07rem #d9d9d9;
-
 }
 header a{
     line-height: 1.36rem;
@@ -155,6 +154,4 @@ header a.home{
     margin: .35rem auto;
     text-align: center;
     font-size: .29rem;
-
-
 }
